@@ -22,7 +22,7 @@ Here's an example of the "upset" process in action:
 |     OOOOO| |          | |          | |OOOOOO OOO| |OOOOOO OO |
 |OO OOOOO O| |          | |          | |OOOOOOOOOO| |OOOOOO OOO|
 |==========| |          | |==========| |==========| |==========|
-    1             2	            3	        4	        5
+    1             2	          3	        4	        5
 </pre>
 In the example above, the bricks are represented by capital O's and the floor is a row of equal signs. The original board (1) is rotated 180 degrees (2), then the floor of the board is moved to the bottom (3), then the pieces all settle to the new floor (4) making a single complete row which gets removed (5).
 
@@ -31,6 +31,7 @@ The input contains five different Upsetris boards, each with from 5 to 20 rows (
 If you are unable to configure your IDE to use a fixed width font, you may copy and paste the output of your program into a text editor that uses a fixed-width font during judging. Note that all the boards in the sample input are the same size and have the same number of rows as columns, but this might not be true of the data sets you will be judged on. The side characters for the board | are ASCII code 124.
 
 # Sample Input
+<pre>
 |          |
 |          |
 |O         |
@@ -86,9 +87,9 @@ If you are unable to configure your IDE to use a fixed width font, you may copy 
 |OOOO O O  |
 |O  OOO OOO|
 |==========|
-
+</pre>
 # Sample Output
-
+<pre>
 |          |
 |          |
 |          |
@@ -144,3 +145,4 @@ If you are unable to configure your IDE to use a fixed width font, you may copy 
 | OO OOO   |
 |OOO OOO OO|
 |==========|
+</pre>
