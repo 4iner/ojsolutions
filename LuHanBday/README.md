@@ -1,3 +1,5 @@
+Link to problem [here](https://dmoj.ca/problem/tsoc16c2p3)
+
 Lu Han, EXO member and K-pop idol wakes up to find that it's his birthday, April 20! Following his birthday tradition, he starts to reread his favourite book.
 
 Given integers A, B, C and D, determine the sum, for all primes p such that A≤p≤B, of the sum of every multiple m of each prime, such that C ≤ m ≤ D. That is, you are taking a sum of sums, and each sum is of a prime's multiples. The only line of input will contain four space-separated integers A, B, C, D as described. Print the required sum as output. Reason for failing: Wasn't sure whether or not to modulo the final answer. Please do not perform as he/she did, and instead, please modulo the answer by 2016420.
