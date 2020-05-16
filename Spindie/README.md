@@ -1,3 +1,5 @@
+Link to problem [here](https://dmoj.ca/problem/ecoo16r1p2)
+
 In the game of Spindie, players take turns spinning a spinner and rolling a die.
 
 On each turn, they spin the spinner three times and roll the die between each pair of spins (i.e. the sequence on a single turn is: Spin, Roll, Spin, Roll, Spin). Each spin of the spinner lands on some integer and each roll of the die results in an integer from 1 to 6. The first spinner number is the base score. Then if a die roll is 1 through 5, the player adds the next spinner number to their score. If they roll a 6, the next number is used to multiply their score. The winner is the player with the highest score after a set number of rounds.
