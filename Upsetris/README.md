@@ -10,22 +10,20 @@ If the player makes bad decisions about where to put pieces, they can end up wit
 In Upsetris, the "twist" (pun intended) is that the user has a one-time-only chance to "upset" the board by rotating it 180 degrees. When this happens, all the individual bricks separate and fall to the floor. This eliminates the holes and sometimes makes new rows.
 
 Here's an example of the "upset" process in action:
-
+<pre>
 |          | |==========| |          | |          | |          |
-
 |          | |O OOOOO OO| |O OOOOO OO| |          | |          |
-
 |          | |OOOOO     | |OOOOO     | |          | |          |
->|          | | OOOOO OO | | OOOOO OO | |          | |          |
->| O   OOO O| |O OO O O  | |O OO O O  | |  OO      | |          |
->|O O  OOOO | | OOOO  O O| | OOOO  O O| |  OOO     | |  OO      |
->|  O O OO O| |O OOO   O | |O OOO   O | |O OOO     | |  OOO     |
->| OO OOOOO | |          | |          | |OOOOOO OO | |O OOO     |
->|     OOOOO| |          | |          | |OOOOOO OOO| |OOOOOO OO |
->|OO OOOOO O| |          | |          | |OOOOOOOOOO| |OOOOOO OOO|
->|==========| |          | |==========| |==========| |==========|`
+|          | | OOOOO OO | | OOOOO OO | |          | |          |
+| O   OOO O| |O OO O O  | |O OO O O  | |  OO      | |          |
+|O O  OOOO | | OOOO  O O| | OOOO  O O| |  OOO     | |  OO      |
+|  O O OO O| |O OOO   O | |O OOO   O | |O OOO     | |  OOO     |
+| OO OOOOO | |          | |          | |OOOOOO OO | |O OOO     |
+|     OOOOO| |          | |          | |OOOOOO OOO| |OOOOOO OO |
+|OO OOOOO O| |          | |          | |OOOOOOOOOO| |OOOOOO OOO|
+|==========| |          | |==========| |==========| |==========|
     1             2	            3	        4	        5
-
+</pre>
 In the example above, the bricks are represented by capital O's and the floor is a row of equal signs. The original board (1) is rotated 180 degrees (2), then the floor of the board is moved to the bottom (3), then the pieces all settle to the new floor (4) making a single complete row which gets removed (5).
 
 The input contains five different Upsetris boards, each with from 5 to 20 rows (not including the "floor") and from 5 to 20 columns (not including the walls). You must simulate the "upset" operation and show the final result for each board. You must show the complete board in your output, including the "floor" row. During judging, you will be allowed to scroll the output screen horizontally or vertically if necessary. The output must be in a fixed-width font (e.g. Courier).
