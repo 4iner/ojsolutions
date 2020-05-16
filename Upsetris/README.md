@@ -1,4 +1,6 @@
 The game of Upsetris is played just like the classic game of Tetris, but with a twist. Just like in Tetris, puzzle pieces, each made of four square bricks, fall from above and the user has to decide where they will land to try and make full rows of blocks. The game ends when the pile reaches the top of the screen.
+
+
 ![Image of Tetris](https://dmoj.algome.me/media/martor/89414521-e4e4-4bb5-9f2e-0b3926c92488.png) ![Image2 tetris](https://dmoj.algome.me/media/martor/17c686c9-f73a-4b8c-bd02-1d3e5d360048.png) ![Image3 tetris](https://dmoj.algome.me/media/martor/b0a41571-114d-450c-8ab3-84a4ba34b36b.png) ![Image4 tetris](https://dmoj.algome.me/media/martor/736da10a-dc21-4119-8eea-702fd15fe986.png)
 
 In the game shown above, a straight vertical piece is falling. If the user drops it in the left most column (picture 1), she will make the bottom four rows full (picture 2), and the full rows will disappear allowing the pile to move down (picture 3).
