@@ -1,0 +1,28 @@
+Link to problem [here](https://dmoj.ca/problem/aplusb2)
+
+Xyene's teacher realized that he was cheating, and was using the code you wrote to save his marks. So, the math teacher decided that he will mess up your program by using numbers larger than 264. In fact, he will give problems involving addition of 100000-digit numbers as punishment. However, Xyene is once again on top — he has promised you a "reward" if you help him again. You suspect it might not be anything more than 15 points, but you still have your hopes up...
+
+# Input Specification
+The first line will contain an integer N, the number of addition problems Xyene needs to do. The next N lines will each contain two space-separated integers with up to 100000 digits in decimal, the two integers Xyene needs to add. N will never be greater than 50.
+
+Warning: the test cases are a lot harder than the sample.
+
+# Output Specification
+Output N lines, the solutions to the addition problems in order.
+
+# Sample Input
+<pre>
+4
+1 1
+226077045628835347875 -572260769919042128358
+-803119834418378628674 236083700054616110639
+-435599336891761067707 451767479989987922363
+</pre>
+
+# Sample Output
+<pre>
+2
+-346183724290206780483
+-567036134363762518035
+16168143098226854656
+</pre>
