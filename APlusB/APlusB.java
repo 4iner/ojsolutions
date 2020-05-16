@@ -16,52 +16,50 @@ public class APlusB {
 				String[] nums = in.readLine().split(" ");
 				String	numA = nums[0];
 				String	numB = nums[1];
-				boolean mode; // true for addition, false for subtraction
 				boolean negA = numA.charAt(0) == '-';
 				boolean negB = numB.charAt(0) == '-';
 				int nA = numA.length();
 				int nB = numB.length();
-				if((negA && negB) || !(negA || negB)) {
-					mode = true;
-					//do additions
+				if ((negA && negB) || !(negA || negB)) {
+					// do additions
 					StringBuilder newInt = new StringBuilder("");
 
-					int pos = 0;
-
-					if(negA) {
+					if (negA) {
 						numA = numA.substring(1, nA--);
 						numB = numB.substring(1, nB--);
 					}
 					int carry = 0;
-					//	System.out.println("Num A: "+numA);
-					//	System.out.println("Num B: "+numB);
+					// System.out.println("Num A: "+numA);
+					// System.out.println("Num B: "+numB);
 					int a, b, c;
-					for(c = 0; c < (nA > nB ? nA : nB); c++) {
-						if(c < nA)
-							a = numA.charAt(nA-c - 1) - '0';
-						else a = 0;
-						if(c < nB)
-							b = numB.charAt(nB-c - 1) - '0';
-						else b = 0;
+					for (c = 0; c < (nA > nB ? nA : nB); c++) {
+						if (c < nA)
+							a = numA.charAt(nA - c - 1) - '0';
+						else
+							a = 0;
+						if (c < nB)
+							b = numB.charAt(nB - c - 1) - '0';
+						else
+							b = 0;
 						int sum = a + b + carry;
-						if(sum >= 10) {
+						if (sum >= 10) {
 							carry = 1;
 							sum -= 10;
-						}
-						else {
+						} else {
 							carry = 0;
 						}
 						newInt.append(sum);
 					}
-					if(carry == 1) newInt.append('1');
+					if (carry == 1)
+						newInt.append('1');
 					newInt.reverse();
-					if(negA) newInt.insert(0, '-');
+					if (negA)
+						newInt.insert(0, '-');
 					System.out.println(newInt.toString());
-				}
-				else {
+				} else {
 					boolean negOut;
-					mode = false;
-					if(negA) numA = numA.substring(1, nA--);
+					if (negA)
+						numA = numA.substring(1, nA--);
 					else numB = numB.substring(1, nB--);
 					String big, small;
 					boolean ABigger = true;
