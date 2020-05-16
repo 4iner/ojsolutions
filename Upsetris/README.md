@@ -11,7 +11,7 @@ In Upsetris, the "twist" (pun intended) is that the user has a one-time-only cha
 
 Here's an example of the "upset" process in action:
 
-|          | |==========| |          | |          | |          |
+`|          | |==========| |          | |          | |          |
 |          | |O OOOOO OO| |O OOOOO OO| |          | |          |
 |          | |OOOOO     | |OOOOO     | |          | |          |
 |          | | OOOOO OO | | OOOOO OO | |          | |          |
@@ -21,7 +21,7 @@ Here's an example of the "upset" process in action:
 | OO OOOOO | |          | |          | |OOOOOO OO | |O OOO     |
 |     OOOOO| |          | |          | |OOOOOO OOO| |OOOOOO OO |
 |OO OOOOO O| |          | |          | |OOOOOOOOOO| |OOOOOO OOO|
-|==========| |          | |==========| |==========| |==========|
+|==========| |          | |==========| |==========| |==========|`
     1             2	            3	        4	        5
 
 In the example above, the bricks are represented by capital O's and the floor is a row of equal signs. The original board (1) is rotated 180 degrees (2), then the floor of the board is moved to the bottom (3), then the pieces all settle to the new floor (4) making a single complete row which gets removed (5).
