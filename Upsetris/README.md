@@ -11,9 +11,11 @@ In Upsetris, the "twist" (pun intended) is that the user has a one-time-only cha
 
 Here's an example of the "upset" process in action:
 
->|          | |==========| |          | |          | |          |
->|          | |O OOOOO OO| |O OOOOO OO| |          | |          |
->|          | |OOOOO     | |OOOOO     | |          | |          |
+|          | |==========| |          | |          | |          |
+
+|          | |O OOOOO OO| |O OOOOO OO| |          | |          |
+
+|          | |OOOOO     | |OOOOO     | |          | |          |
 >|          | | OOOOO OO | | OOOOO OO | |          | |          |
 >| O   OOO O| |O OO O O  | |O OO O O  | |  OO      | |          |
 >|O O  OOOO | | OOOO  O O| | OOOO  O O| |  OOO     | |  OO      |
